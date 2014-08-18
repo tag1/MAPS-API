@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#map-canvas {
+	height: 80%;
+	margin: 0px;
+	padding: 0px;
+}
+#bottom-bar {
+	height: 20%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: flex;
+	background-color: antiquewhite;
+}
+#query-typer {
+	display: none;
+	text-align: center;
+	max-width: 13%;
+	margin-left: 7%;
+}
+.query-bar {
+	margin-top: 1em;
+	margin-left: 1em;
+}
+.query-submit {
+	margin-top: 1.5em;
+	margin-left: 1em;
+
+}
+#information-text {
+	text-align: center;
+	max-width: 75%;
+	margin-left: 8em;
+	margin-top: 1em;
+}
+.wikipedia-info {
+	padding-top: 1em;
+}

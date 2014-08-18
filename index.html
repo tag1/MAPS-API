@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Historical Map</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVHjoat2WtDmH8wkZKUHenDAc_J3pIeao">
+    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<div id="map-canvas"></div>
+	<div id="bottom-bar">
+		<form id="query-typer">
+			<input class="query-bar" type="search" placeholder="E.G. Pirates, Battles, Politics" list="options" required />
+			<br>
+			<input class="query-submit" type="submit" value="Submit">
+		</form>
+		<div id="information-text">
+			<h2 class="info-title">Title</h2>
+			<p class="wikipedia-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam consequatur nostrum fuga dignissimos iusto cumque porro eius odio voluptatum dolorum, obcaecati, temporibus incidunt nobis consectetur aliquid doloremque. Excepturi, eius, perspiciatis!</p>
+			<br>
+			<p class="sourced"></p>
+		</div>
+	</div>
+	<datalist id="options">
+		<option value="Pirates">
+		<option value="Battles">
+		<option value="Politics">
+		<option value="Shipwrecks">
+		<option value="Places">
+	</datalist>
+</body>
+</html>
